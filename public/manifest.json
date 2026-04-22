@@ -1,0 +1,75 @@
+{
+  "name": "ساكي - غرف الصوت العربية",
+  "short_name": "ساكي",
+  "description": "تواصل • ترفيه • مجتمع - غرف الصوت العربية",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#0f0f1a",
+  "theme_color": "#a855f7",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["social", "entertainment", "communication"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "https://j.top4top.io/p_37559m1p51.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "https://j.top4top.io/p_37559m1p51.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://j.top4top.io/p_37559m1p51.jpg",
+      "sizes": "256x256",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-preview.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "ساكي - الشاشة الرئيسية"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "الرئيسية",
+      "short_name": "الرئيسية",
+      "url": "/?shortcut=home",
+      "icons": [{ "src": "https://j.top4top.io/p_37559m1p51.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "الرسائل",
+      "short_name": "رسائل",
+      "url": "/?shortcut=messages",
+      "icons": [{ "src": "https://j.top4top.io/p_37559m1p51.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "الغرف",
+      "short_name": "غرف",
+      "url": "/?shortcut=rooms",
+      "icons": [{ "src": "https://j.top4top.io/p_37559m1p51.jpg", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [],
+  "handle_links": "preferred",
+  "launch_handler": { "client_mode": "focus-existing" },
+  "edge_side_panel": { "preferred_width": 400 }
+}
